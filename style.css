@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app, body {
+    width: 100vw;
+    height: 100vh;
+    background: #fafafa;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.calculatorContainer {
+    width: 90vmin;
+    height: 20vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer, .calculator {
+    height: 15vmin;
+    font-size: 7vmin;
+}
+
+.answer {
+    width: 90vmin;
+    text-align: left;
+}
+
+.calculator {
+    width: 80vmin;
+    text-align: center;
+}
+
+.submit {
+    width: 10vmin;
+    height: 15vmin;
+    font-size: 2.5vmin;
+    /* font-size: 5vmin; */
+}
